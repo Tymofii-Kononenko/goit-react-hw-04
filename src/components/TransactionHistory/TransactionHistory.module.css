@@ -1,6 +1,6 @@
 table {
     width: 500px;
-    border-color: black;
+    border-color: rgb(0, 0, 0);
     margin-top: 20px;
     border: 2px solid black;
     border-collapse: collapse;
