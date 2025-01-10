@@ -1,0 +1,26 @@
+table {
+    width: 500px;
+    border-color: black;
+    margin-top: 20px;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+tr>th {
+    background-color: rgb(49, 48, 48);
+    color: white;
+    border: 2px solid black;
+}
+
+td {
+    border: 2px solid black;
+    text-transform: capitalize;
+}
+
+tr:nth-child(even) {
+    background-color: grey
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(187, 205, 186, 0.66);
+}
